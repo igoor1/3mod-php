@@ -1,0 +1,10 @@
+ create database boleto;
+ 
+ use boleto;
+ 
+ create table dados(
+    -> cod_produto int primary key,
+    -> descricao varchar(90) not null,
+    -> valor decimal not null,
+    -> quantidade int not null,
+    -> pgto char(1) not null);
